@@ -21,7 +21,7 @@ Require Python 2.7 and CUDA.
 ```
 wget https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz; tar zxvf cifar-10-python.tar.gz
 ```
-3. Parallelize Line 143-146 in CNTK.py according to your specific computing enviroment to utilize multiple GPUs. 
+3. Parallelize [Line 143-146](https://github.com/ruosongwang/CNTK/blob/f6152dab94dfc7abb84cba8eb346366d8c39c0f0/CNTK.py#L143) in CNTK.py according to your specific computing enviroment to utilize multiple GPUs. 
 
 To reproduce results in Table 1 in our paper:
 
